@@ -1,11 +1,22 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../views/Home.vue";
-
+import Loader from "../views/Loader.vue";
+import VistaFundamentos from "../views/VistaFundamentos.vue";
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home
+  },
+  {
+    path: "/loader",
+    name: "loader",
+    component: Loader
+  },
+  {
+    path: "/vistafundamentos",
+    name: "fundamentos",
+    component: VistaFundamentos
   },
   {
     path: "/about",
